@@ -149,7 +149,7 @@ document.getElementById("date-change-btn").addEventListener("change", (e) => {
 
 function setWeather(city) {
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1c83ebe03e4005aa76f5b4b290a17387`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid={YOU API KEY}`
   )
     .then((res) => {
       return res.json();
