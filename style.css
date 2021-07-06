@@ -1,0 +1,206 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: #040127;
+  font-family: Segoe UI;
+  color: white;
+}
+/* Navbar */
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 3.25rem;
+  background-color: #131c5a;
+  font-size: 2.2rem;
+}
+
+.brand-tag {
+  margin: 0.25rem;
+  margin-left: 2rem;
+  margin-right: auto;
+}
+
+/* District Element */
+
+.district {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.25rem;
+  margin-top: 1.5rem;
+}
+
+.district .name {
+  font-size: 2.2rem;
+  margin: 0.25rem;
+}
+
+.district .question {
+  margin-bottom: 0.5rem;
+}
+
+.district .pincode {
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.district .pincode .input {
+  margin-inline: 0.25rem;
+  font-size: 1.5rem;
+  width: 8rem;
+  text-align: center;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 2rem;
+}
+
+.district .pincode .go-btn {
+  margin-inline: 0.25rem;
+  width: 4rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  background-color: #4efff9;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.today {
+  position: absolute;
+  font-size: 2.25rem;
+  left: 0;
+  top: 6.75rem;
+  margin: 2rem;
+}
+.today .info {
+  font-size: 1rem;
+}
+
+.available {
+  margin: 2rem;
+  margin-right: auto;
+}
+
+.available .info {
+  font-size: 1.5rem;
+}
+
+.available .btn {
+  color: #040127;
+  background-color: #4efff9;
+  padding-inline: 0.25rem;
+  border-radius: 1.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.weather {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 0px;
+  top: 2rem;
+  margin: 2rem;
+  /* border: 1px solid red; */
+  font-size: 1.6rem;
+}
+
+.weather .img {
+  height: 8.7rem;
+  width: 8.7rem;
+}
+
+.weather .temperature {
+  margin-inline: 2rem;
+}
+
+.weather .condition {
+  margin-inline: 2rem;
+}
+
+.vax-slots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+.vax-slots .slot {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.75rem;
+  background-color: #131c5a;
+  margin-block: 2rem;
+  /* border: 1px solid red; */
+}
+
+.vax-slots .slot .address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-inline: 2rem;
+}
+.vax-slots .slot .address .vill {
+  font-size: 1.5rem;
+}
+
+.vax-slots .slot .dose-avail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vax-slots .slot .dose-avail .doses {
+  padding: 0.25rem;
+  background-color: white;
+  margin: 0.25rem;
+  border-radius: 0.25rem;
+  color: black;
+}
+.vax-slots .slot .dose-avail .doses .dose-1 {
+  border-bottom: 1px solid black;
+}
+
+.vax-slots .slot .dose-avail .doses .dose-1 .d1-count,
+.vax-slots .slot .dose-avail .doses .dose-2 .d2-count {
+  padding: 0.25rem;
+  border-left: 1px solid black;
+}
+
+.vax-slots .slot .register-btn {
+  margin: 2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  background-color: #4efff9;
+  color: #040127;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.vax-slots .no-vax {
+  margin-inline: auto;
+  font-size: 2rem;
+}
+
+.copyright-kinda {
+  margin: 1rem;
+  margin-right: auto;
+  color: rgb(196, 196, 196);
+}
